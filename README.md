@@ -10,7 +10,7 @@ Using binocular geometry, we calculate the disparity matrix. This matrix allows 
 ## Object Detection
 To detect objects, we utilize a deep neural network (DNN) module. We train the DNN using the COCO dataset, and [haarcascade_frontface_default](https://github.com/opencv/opencv/blob/4.x/data/haarcascades/haarcascade_frontalface_default.xml) which contains a wide range of object categories. The trained model is then used to detect objects in real-time.
 ## Text-to-Speech Conversion
-Once the depth and object information is obtained, we convert it from text to speech using pyttsx library This allows blind individuals to receive the information audibly, enabling them to navigate their surroundings more effectively.
+Once the depth and object information is obtained, we convert it from text to speech using pyttsx3 library This allows blind individuals to receive the information audibly, enabling them to navigate their surroundings more effectively.
 ## Usage
 To use this system, follow the steps below:
 
